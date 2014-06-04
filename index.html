@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>High Returns, No Hidden Markups - Integrity Wholesale Investments</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+        <style type="text/css">
+        /* fonts */
+        @font-face {
+            font-family: 'open_sansregular';
+            src: url('assets/fonts/OpenSans-Regular-webfont.eot');
+            src: url('assets/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('assets/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+                 url('assets/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+                 url('assets/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'open_sansbold';
+            src: url('assets/fonts/OpenSans-Bold-webfont.eot');
+            src: url('assets/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('assets/fonts/OpenSans-Bold-webfont.woff') format('woff'),
+                 url('assets/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+                 url('assets/fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: 'open_sanslight';
+            src: url('assets/fonts/OpenSans-Light-webfont.eot');
+            src: url('assets/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('assets/fonts/OpenSans-Light-webfont.woff') format('woff'),
+                 url('assets/fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+                 url('assets/fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+            font-weight: normal;
+            font-style: normal;
+}
+
+
+        .clearer {clear: both; }
+
+        html, body { margin: 0; padding: 0; width: 100%; height: 100%; }
+        p { font-size: 1em; font-weight: 100; font-family: 'open_sanslight', Helvetica, sans-serif !important; }
+        div.footnote { font-family: 'open_sanslight', Helvetica, sans-serif !important; font-size: 11px; line-height: 13px; }
+        html, body, div { font-family: 'open_sansregular', Helvetica, sans-serif !important; }
+        div, ul, h1, h2, h3, h4 { margin: 0; }
+        h2, h3, h4, #introduction li, .tagline, #numbers-highlights, #flat-fee-number span {
+          text-transform:uppercase;
+        }
+
+        h1, h2 {  
+            font-family: 'open_sansbold', Helvetica, sans-serif !important;
+        }
+
+        h1 { font-size: 1.6em; }
+
+        h2 { font-size: 1.4em; margin-bottom: 1em; }
+
+        #introduction, #numbers, #no-markups, #contact-us {
+            padding: 2em 1em;
+        }
+        
+        #logo {
+            background-image: url("assets/images/logo.png");
+            width: 220px;
+            height: 61px;
+            margin: 0 auto;
+        }
+
+        #tagline {
+            color: #4b3a26;
+            font-style: italic;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+
+        #introduction  {
+            background-color: #d9b443; /* yellow */
+            color: #fff;
+            clear: both;
+            background-image: url("assets/images/hand.png");
+            background-position: right bottom;
+            background-repeat: no-repeat;
+            padding-bottom: 240px;
+        }
+        
+        #introduction p {
+            font-size: 1.4em;
+        }
+
+        #introduction ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 2em;
+        }
+
+        #introduction li {
+            background-image: url('assets/images/bullet.png');
+            background-repeat: no-repeat;
+            background-position: 0px 0px; 
+            font-size: 1.2em;
+            padding-left: 24px;
+            padding-bottom: 10px;
+
+        }
+
+        #numbers {
+            background-color: #315469; /* blue */
+        }
+
+        #numbers-highlights {
+            color: #d9b443;
+            width: 200px;
+            margin: 0 auto;
+            padding-bottom: 1em;
+            padding-right: .6em;
+        }
+
+        #numbers-description {
+            color: #fff;
+        }
+
+        #numbers-highlights .highlight {
+            padding-left: 90px;
+            font-size: .9em;
+            font-weight: 800;
+            padding-top: 18px; 
+            background-repeat: no-repeat;
+            height: 75px;
+            margin-bottom: 1em;
+        }
+
+        #numbers-highlights h3 {
+            font-family: 'open_sansbold', Helvetica, sans-serif !important;
+            font-size: 1.4em;
+        }
+
+        #homes-purchased {
+            background-image: url('assets/images/icon-house-75.png');
+        }
+        
+        #average-price {
+            background-image: url('assets/images/icon-dollar-75.png');
+        }
+
+        #average-roi {
+            background-image: url('assets/images/icon-average-roi-75.png');
+        }
+        
+        #no-markups {
+            background-color: #4b3a26;
+            color: #fff;
+        }
+
+        #flat-fee-number {
+            background-color: #315469;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px; 
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: 2em;
+        }
+
+        #flat-fee-number h3 {
+            font-family: 'open_sanslight', Helvetica, sans-serif !important;
+            font-size: 3em;
+            padding-top: 60px;
+        }
+
+        #flat-fee-number span {
+            font-family: 'open_sansbold', Helvetica, sans-serif !important;
+            font-size: 1.8em;
+        }
+
+        #contact-us {
+            color: #315469;
+            font-size: 1em;
+        }
+
+        #video-intro h3 {
+            font-size: 1.4em;
+        }
+
+        #video-intro h3, #video-intro p {
+            padding: 0 40px 0 0;
+        }
+
+        #contact-info {
+            clear: both;
+            padding-top: 3em;
+            padding-right: 2em;
+        }
+
+        #contact-form {
+            padding-top: 3em;
+        }
+        
+        #contact-info h4 {
+            margin-top: 2em;
+            font-size: .8em;
+        }
+
+        #contact-form input, #contact-form textarea, #contact-form .btn {
+            margin-top: 1em;
+        }
+
+        .form-control {
+            border-radius: 0;
+            background-color: #e3e3e3;
+            border-color: #e3e3e3;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .form-control:focus {
+            border-color: #315469;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        .btn {
+            border-radius: 0;
+            background-color: #d9b443; /* yellow */
+            color: #315469; /* blue */
+            border: 0;
+        }
+
+        .btn:hover {
+            background-color: #d9b443;
+            color: #fff;
+        }
+
+        #footer {
+            background-color: #315469; /* blue */
+            color: #fff;
+            padding-top: 2em;
+            padding-bottom: 2em;
+        }
+
+        #footer-logo {
+            display: block;
+            width: 197px;
+            height: 48px;
+            margin: 0 auto;
+            background-image: url('assets/images/logo-footer.png');
+        }
+
+        #copyright {
+            font-family: 'open_sanslight', Helvetica, sans-serif !important;
+            color: #fff;
+            margin-top: 1em;
+            font-size: .8em;
+            text-align: center;
+        }
+
+#video-wrapper {
+            position: relative;
+            padding-bottom: 53.0%; /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+}
+#video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+}
+
+@media all and (min-width: 575px) {
+
+        #introduction, #numbers, #no-markups, #contact-us {
+            padding: 2em 10%;
+        }
+
+        h1 { font-size: 2em; }
+        h2 { font-size: 1.6em; }
+        p  {font-size: 1.2em; }
+
+        #header, #footer { padding: 1em 10%; }
+
+        #logo { 
+            float: left; 
+        }
+
+        #tagline { float:right; margin-top: 1em; }
+
+        #introduction {
+            background-position: right center;
+            padding-bottom: 2em;
+        }
+
+        #introduction-description
+        {
+            width: 50%;
+            float: left;
+        }
+
+        #numbers-highlights {
+            width: 33%;
+            float: left;
+            margin: 0;
+        }
+
+        #numbers-highlights .highlight {
+            padding-left: 66px;
+            font-size: .8em;
+            margin: inherit;
+            width: auto;
+            font-weight: 800;
+            padding-top: 14px; 
+            background-repeat: no-repeat;
+            height: 75px;
+            margin-bottom: 1em;
+        }
+
+        #homes-purchased {
+            background-image: url('assets/images/icon-house-60.png');
+        }
+        
+        #average-price {
+            background-image: url('assets/images/icon-dollar-60.png');
+        }
+
+        #average-roi {
+            background-image: url('assets/images/icon-average-roi-60.png');
+        }
+
+        #numbers-description {
+            width: 66%;
+            float: left;
+        }
+
+        #flat-fee {
+            float: left; 
+            width: 33%;
+        }
+
+        #flat-fee-number { margin: 0; width: 150px; height: 150px; }
+
+        #flat-fee-number h3 {
+            font-size: 2em;
+            padding-top: 46px;
+        }
+
+        #flat-fee-number span {
+            font-size: 1.4em;
+        }
+
+        #no-markups-description {
+            float: left;
+            width: 66%;
+        }
+
+
+        #contact-info {
+            width: 33%;
+            float: left;
+        }
+
+        #contact-form {
+            width: 66%;
+            float: left;
+        }
+
+        #footer-logo {             
+            float: left;
+        }
+
+        #copyright {
+            float: right;
+        }
+}
+
+@media all and (min-width: 770px) {
+
+        h1 { font-size: 2.4em; }
+        h2 { font-size: 2em; }
+
+        p { font-size: 1.4em; }
+        #video-intro {
+            float: left;
+            width: 33%;
+        }
+
+        #video {
+            float: left;
+            width: 66%;
+        }
+
+        #homes-purchased {
+            background-image: url('assets/images/icon-house-75.png');
+        }
+        
+        #average-price {
+            background-image: url('assets/images/icon-dollar-75.png');
+        }
+
+        #average-roi {
+            background-image: url('assets/images/icon-average-roi-75.png');
+        }
+
+        #numbers-highlights .highlight {
+            padding-left: 90px;
+            font-size: .9em;
+            font-weight: 800;
+            padding-top: 18px; 
+            background-repeat: no-repeat;
+            height: 75px;
+            margin-bottom: 1em;
+        }
+
+        #flat-fee-number { margin: 0; width: 200px; height: 200px; }
+
+        #flat-fee-number h3 {
+            font-family: 'open_sanslight', Helvetica, sans-serif !important;
+            font-size: 3em;
+            padding-top: 60px;
+        }
+
+        #flat-fee-number span {
+            font-family: 'open_sansbold', Helvetica, sans-serif !important;
+            font-size: 1.8em;
+        }
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <a href="/"><div id="logo"></div></a>
+            <div id="tagline">Turnkey Investment Properties</div>
+            <div class="clearer"></div>
+        </div>
+        <div id="introduction" class="section">
+            <div id="introduction-description">
+                <h1>Integrity Wholesale Investments</h1>
+                <p>provides a complete real estate investment package including:</p>
+                <ul>
+                    <li>Profitable Cash Flow Leads</li>
+                    <li>Property Management</li>
+                    <li>Title Company Services</li>
+                    <li>Local Insurance <span class="sidenote">(if needed)</span></li>
+                </ul>
+            </div>
+            <div class="clearer"></div>
+        </div>
+        <div id="numbers" class="section">
+            <div id="numbers-highlights">
+                <div class="highlight" id="homes-purchased"><h3>83 Homes</h3> Since 12/2013</div>
+                <div class="highlight" id="average-price"><h3>$34,985</h3> Average Price</div>
+                <div class="highlight" id="average-roi"><h3>13.39%</h3> Average ROI*</div>
+            </div>
+            <div id="numbers-description">
+                <h2>The Numbers Speak For Themselves</h2>
+                <p>Since December 2013 we have purchased 74
+                   homes in the St. Louis area for our investors at an average price of $33,445, 
+                   with an average return on investment of 13.48%*.</p>
+
+                <div class="footnote">*I am conservative in my calculations, taking into account
+                  initial repairs, yearly repairs (10%), yearly vacancies (10%), taxes, insurance 
+                  and property management (8%).</div>
+            </div>
+            <div class="clearer"></div>
+        </div>
+        <div id="no-markups">
+            <div id="flat-fee">
+                <div id="flat-fee-number">
+                    <h3>$2000</h3>
+                    <span>Flat Fee</span>
+                </div>
+            </div>
+            <div id="no-markups-description">
+                <h2>No Hidden Markups</h2>
+                <p>Wholesalers often mark up houses by $3,000-$10,000 before selling to you. 
+                  Because the wholesaler double closes on the property, the markup is hidden. 
+                  This significantly reduces your return on investment. </p>
+                <p>We don't like to do business like that. Instead, we put your investment 
+                  needs first by charging a flat fee of $2,000 per house, regardless of the 
+                  cost of the house. We reassign the contract instead of double-closing so
+                  nothing is hidden.</p>
+            </div>
+            <div class="clearer"></div>
+        </div>
+        <div id="contact-us">
+            <div id="video-intro">
+                <h3>Meet Rick Hein, the owner of Integrity Wholesale Investments.</h3>
+                <p>Please send us a message below and we'll get in touch to talk about
+                    how we can help you meet your investment goals.</p>
+            </div>
+            <div id="video">
+                <div id="video-wrapper">
+                    <iframe src="http://player.vimeo.com/video/96604865?title=0&amp;byline=0&amp;portrait=0&amp;color=d9b443" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="contact-info">
+                <h3>Integrity Wholesale Investments</h3>
+                <h4>Address</h4>
+                <div>134 Prairie Bluffs Drive</div>
+                <div>Foristell, Missouri 63348</div>
+                <h4>Phone</h4>
+                <div>(314) 856-2221</div>
+                <h4>Fax</h4>
+                <div>(636) 590-6711</div>
+            </div>
+            <div id="contact-form">
+                <h2>Contact Us Today</h2>
+                <form action="http://getsimpleform.com/messages?form_api_token=9c4403a114e7a3938bb5f3abd2658f4f" method="post" role="form">
+                <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                <input type='hidden' name='redirect_to' value='http://www.investwithintegrity.cc/thankyou.html' />
+                <!-- all your input fields here.... -->
+                    <input type='text' class="form-control" id="name" name='name' placeholder="Name" />
+                    <input type='email' class="form-control" id="email" name='email' placeholder="Email" />
+                    <input type='phone' class="form-control" id="phone" name="phone" placeholder="Phone Number" />
+
+                    <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                    <input type='submit' class="btn btn-default" value='Send' />
+                </form>
+            </div>
+            <div class="clearer"></div>
+        </div>
+        <div id="footer">
+            <div id="footer-logo"></div>
+            <div id="copyright">Copyright 2014. Integrity Wholesale Investments. All rights reserved.</div>
+            <div class="clearer"></div>
+        </div>
+    </body>
+</html>
